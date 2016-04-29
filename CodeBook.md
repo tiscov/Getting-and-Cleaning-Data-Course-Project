@@ -48,14 +48,10 @@ stdeviationvalue.
 (explanation of the different variables appearing in the script and the steps for cleaning the original data and obtain the "finaldataset")
 
 0) Prelinaries: 
-
 * download the original data into a new "dataproj" directory
-
 * change the working directory to "dataproj", where the data file has been downloaded
-
 * unzip the downloaded file
 (All the original data to be accessed is then in the directory "dataproj\\UCI HAR Dataset")
-
 * load the necessary packages for the analysis
       
 1') Create the training and test dataframes (including "id" and "activities")
