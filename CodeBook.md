@@ -81,6 +81,7 @@ stdeviationvalue.
             -Using a loop from 1 to 6, change the 1:6 values of the "activity" column in "msdata" with corresponding descriptive names.
       
       4)Appropriately labels the data set with descriptive variable names. Do it recursively, for each i-th variable name (except 'id' (i=1) and "activity" (i=2)). In the new names are inserted few blank spaces only for readability 
+      
       [ e.g. "BodyAcc" is changed in "bodylinearacceleration"
             "GravityAcc" is changed in "gravitylinearacceleration"
             "BodyGyro" is changed in "bodyangularvelocity"
