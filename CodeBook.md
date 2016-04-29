@@ -49,14 +49,14 @@ stdeviationvalue.
 
 0) Prelinaries: 
 
-*download the original data into a new "dataproj" directory
+* download the original data into a new "dataproj" directory
 
-*change the working directory to "dataproj", where the data file has been downloaded
+* change the working directory to "dataproj", where the data file has been downloaded
 
-*unzip the downloaded file
+* unzip the downloaded file
 (All the original data to be accessed is then in the directory "dataproj\\UCI HAR Dataset")
 
-*load the necessary packages for the analysis
+* load the necessary packages for the analysis
       
 1') Create the training and test dataframes (including "id" and "activities")
 
