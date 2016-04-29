@@ -51,13 +51,12 @@ stdeviationvalue.
             -download the original data into a new "dataproj" directory
             -change the working directory to "dataproj", where the data file has been downloaded
             -unzip the downloaded file
-      All the original data to be accessed is then in the directory "dataproj\\UCI HAR Dataset"
-      
-            -load the necessary packages for the analysis
             
+      All the original data to be accessed is then in the directory "dataproj\\UCI HAR Dataset"
+            -load the necessary packages for the analysis
+
       1') Create the training and test dataframes (including "id" and "activities")
             -Extract the names of variables of test and train sets from the downloaded file (data frame "features"), and store them into a character vector "varnames" (of length 561)
-            
             -Create a training data frame:
             i)read the trainingset data and assign it to the temporaty variable "trainset"; set the columns names to be the elements of "varnames"; 
             ii)read the activity_labels for this set of observations, and assign to a variable "trainlab" (to be a character vector);
