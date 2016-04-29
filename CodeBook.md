@@ -29,17 +29,17 @@ is given the mean of the different measures of the repeated experiments.
 
 -Are considered only the variables 
 
-bodylinearacceleration X|Y|Zaxis
-gravitylinearacceleration X|Y|Zaxis
-bodyangularvelocoty X|Y|Zaxis
+bodylinearacceleration X|Y|Zaxis, 
+gravitylinearacceleration X|Y|Zaxis, 
+bodyangularvelocoty X|Y|Zaxis, 
 
 as well as estimated variables
 
-FFT (Fast Fourier Transform)
-Jerksignal (time derivative)
-Magnitude (using the Euclidean norm)
-meanvalue
-stdeviationvalue
+FFT (Fast Fourier Transform), 
+Jerksignal (time derivative), 
+Magnitude (using the Euclidean norm), 
+meanvalue, 
+stdeviationvalue.
 
 -> this give us a data frame of dimension (30x6)X68= 180X68
 
